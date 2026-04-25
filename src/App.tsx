@@ -6,7 +6,7 @@ function App() {
     <>
       <VibeKanbanWebCompanion />
       <div className="app">
-        <h1>HellowWorld</h1>
+        <h1>ハロー</h1>
       </div>
     </>
   )
