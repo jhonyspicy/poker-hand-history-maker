@@ -6,8 +6,7 @@ function App() {
     <>
       <VibeKanbanWebCompanion />
       <div className="app">
-        <h1>Vibe Kanban</h1>
-        <p>Welcome to your Kanban board!</p>
+        <h1>ハロー</h1>
       </div>
     </>
   )
