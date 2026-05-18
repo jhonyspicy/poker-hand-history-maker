@@ -28,7 +28,7 @@ bun run deploy   # GitHub Pages へ手動デプロイ
 - **片手・片指操作が最優先** — スマホ縦持ちで全操作が完結すること
 - **文字入力は SB/BB/Ante のみ** — それ以外はタップ・スライダーで入力する
 - **スライダーは「だいたい」で十分** — スタック量・ベット額は正確性より入力速度を優先
-- **カード入力はなぞり式** — ランク→スートの順に連続タップ（例: K→♡→T→♢）で複数枚を素早く入力できること
+- **カード入力はなぞり式** — ランク→スートの順になぞること（例: K→♡→T→♢）で複数枚を素早く入力できること
 - **UI 言語は日本語**
 
 ### データ
@@ -59,16 +59,16 @@ bun run deploy   # GitHub Pages へ手動デプロイ
 
 人数によって使うポジション名を変える。プリフロップのアクション順は UTG → ... → BTN → SB → BB。
 
-| 人数 | ポジション（UTG 側から） |
-|------|------------------------|
-| 2 | SB, BB |
-| 3 | BTN, SB, BB |
-| 4 | UTG, BTN, SB, BB |
-| 5 | UTG, CO, BTN, SB, BB |
-| 6 | UTG, HJ, CO, BTN, SB, BB |
-| 7 | UTG, LJ, HJ, CO, BTN, SB, BB |
-| 8 | UTG, UTG+1, LJ, HJ, CO, BTN, SB, BB |
-| 9 | UTG, UTG+1, UTG+2, LJ, HJ, CO, BTN, SB, BB |
+| 人数 | ポジション（UTG 側から）                                 |
+|------|------------------------------------------------|
+| 2 | BTN, BB                                        |
+| 3 | BTN, SB, BB                                    |
+| 4 | UTG, BTN, SB, BB                               |
+| 5 | UTG, CO, BTN, SB, BB                           |
+| 6 | UTG, HJ, CO, BTN, SB, BB                       |
+| 7 | UTG, LJ, HJ, CO, BTN, SB, BB                   |
+| 8 | UTG, UTG+1, LJ, HJ, CO, BTN, SB, BB            |
+| 9 | UTG, UTG+1, UTG+2, LJ, HJ, CO, BTN, SB, BB     |
 | 10 | UTG, UTG+1, UTG+2, MP, LJ, HJ, CO, BTN, SB, BB |
 
 ## データモデル（概略）
